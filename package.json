@@ -1,0 +1,29 @@
+{
+  "name": "node-beginner-project",
+  "version": "1.0.0",
+  "description": "A simple node website to demostrate creation of minimal informational site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app",
+    "devstart": "nodemon ./app",
+    "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winplam/node-beginner-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winplam/node-beginner-project/issues"
+  },
+  "homepage": "https://github.com/winplam/node-beginner-project#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
